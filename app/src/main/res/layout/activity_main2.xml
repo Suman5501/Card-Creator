@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="137dp"
+        android:alpha="0.8"
+        android:background="#2A0F5A"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/headingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="10dp"
+
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="#00BCD4"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/toTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#FFFCFC"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/messageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFCFC"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/fromTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="right"
+            android:padding="10dp"
+
+            android:textColor="#FFFDFD"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
